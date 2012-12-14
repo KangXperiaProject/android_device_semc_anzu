@@ -16,4 +16,7 @@ TARGET_QCOM_HDMI_OUT := false
 
 BOARD_FLASH_BLOCK_SIZE := 2048
 
+#Recovery
+TARGET_RECOVERY_INITRC := device/semc/anzu/recovery/init.rc
+
 TARGET_OTA_ASSERT_DEVICE := LT18i,LT18a,LT15i,LT15a,anzu
